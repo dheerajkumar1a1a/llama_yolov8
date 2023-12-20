@@ -7,6 +7,7 @@ transformers==4.29.2
 ultralytics==8.0.189
 opencv-python-headless
 omegaconf
+replicate
 
 # Ultralytics requirements
 # Example: pip install -r requirements.txt
