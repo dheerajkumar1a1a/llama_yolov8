@@ -1,1 +1,13 @@
-streamlit>=1.26.0
+langchain==0.0.351
+opencv_contrib_python==4.8.1.78
+opencv_python==4.8.1.78
+opencv_python_headless==4.8.0.74
+opencv_python_headless==4.8.1.78
+Pillow==10.0.1
+Pillow==10.1.0
+Pillow==10.1.0
+streamlit==1.22.0
+torch==2.1.2
+transformers==4.29.2
+ultralytics==8.0.189
+ultralytics==8.0.228
