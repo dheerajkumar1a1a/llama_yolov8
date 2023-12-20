@@ -31,7 +31,7 @@ with st.sidebar:
             st.warning('Please enter your credentials!', icon='⚠️')
         else:
             st.success('Proceed to entering your prompt message!', icon='👉')
-    os.environ['REPLICATE_API_TOKEN'] = 'r8_1ZviNlfE94ZzfocsHPr9tdZoCEXMJu31IDM3R'
+    os.environ['REPLICATE_API_TOKEN'] = replicate_api
 
 llm = Replicate(
     model='a16z-infra/llama7b-v2-chat:4f0a4744c7295c024a1de15e1a63c880d3da035fa1f49bfd344fe076074c8eea',
