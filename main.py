@@ -22,7 +22,7 @@ conversational_memory = ConversationBufferWindowMemory(
 
 with st.sidebar:
     st.title('🦙💬 Llama 2 Chatbot')
-    if 0: #'REPLICATE_API_TOKEN' in st.secrets:
+    if 'REPLICATE_API_TOKEN' in st.secrets:
         st.success('API key already provided!', icon='✅')
         replicate_api = st.secrets['REPLICATE_API_TOKEN']
     else:
